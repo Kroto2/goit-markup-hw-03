@@ -66,6 +66,8 @@ body {
     border-radius: 4px;
     text-align: center;
     line-height: 1.875;
+    color: var(--white);
+    background-color: var(--blue);
 }
 .little-header{
     font-weight: 700;
