@@ -69,6 +69,7 @@ body {
     color: var(--white);
     background-color: var(--blue);
     border:none;
+    letter-spacing:00.06em;
 }
 .little-header{
     font-weight: 700;
