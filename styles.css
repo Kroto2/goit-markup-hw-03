@@ -68,6 +68,7 @@ body {
     line-height: 1.875;
     color: var(--white);
     background-color: var(--blue);
+    border:none;
 }
 .little-header{
     font-weight: 700;
@@ -93,6 +94,7 @@ body {
     border-radius: 4px;
     text-align:center;
     line-height: 1.625;
+    border:none;
 }
 .nav-button:hover, .nav-button:focus{
     background-color: var(--blue);
