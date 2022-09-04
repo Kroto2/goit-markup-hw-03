@@ -1,0 +1,115 @@
+:root {
+    --blue:#2196F3 ;
+    --black:#000000 ;
+    --white:#FFFFFF ; 
+    --main-text-color:#757575 ;
+    --background-grey:#2F303A ; 
+    --header-black:#212121 ; 
+    --background-white:#F5F4FA ; /* button background */
+    --main-background-white:#E5E5E5 ;
+}
+
+body {
+    font-family:"Roboto", "Raleway", sans-serif ;
+    color:var(--main-text-color);
+    font-size:14px;
+    letter-spacing: 0.03em;
+}
+.Logo{
+    color:#000000;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.173;
+    text-decoration: none;
+}
+.Logo>span {
+    color:blue;
+}
+
+.site-nav{
+    font-weight: 500;
+    color:var(--header-black);
+    letter-spacing:0.02em;
+}
+.site-nav:hover, .site-nav:focus {
+    color:var(--blue);
+}
+.contact {
+    color: var(--main-text-colormain-text-color);
+    font-weight: 500;
+    letter-spacing: 00.02em;
+    text-decoration:none;
+    line-height: 1.172;
+}
+.contact:hover, .contact:focus {
+    color:var(--blue)
+}
+.main-container{
+    width:1600px;
+    height:600px;
+    background-color:var(--background-grey);
+}
+.main-header{
+    text-align: center;
+    font-weight: 900;
+    color:var(--white);
+    font-size: 44px;
+    letter-spacing:0.06em ;
+    line-height:1.364;
+
+}
+.main-button{
+    cursor: pointer;
+    font-size:16px ;
+    font-weight:700 ;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 1.875;
+    color: var(--white);
+    background-color: var(--blue);
+    border:none;
+    letter-spacing:00.06em;
+}
+.little-header{
+    font-weight: 700;
+    color:var(--header-black);
+    line-height: 1.172;
+}
+.secondary-header{
+    font-weight: 700;
+    font-size: 36px;
+    color:var(--header-black);
+    line-height:1.171;
+}
+.name-header{
+    font-weight: 500;
+    font-size:16px ;
+    color:var(--header-black);
+    line-height: 1.171;
+}
+.nav-button{
+    cursor: pointer;
+    font-size:16px ;
+    font-weight:500 ;
+    border-radius: 4px;
+    text-align:center;
+    line-height: 1.625;
+    border:none;
+}
+.nav-button:hover, .nav-button:focus{
+    background-color: var(--blue);
+    color:var(--white);
+}
+.little-picture-header {
+    font-weight: 700;
+    color: var(--header-black);
+    letter-spacing: 00.06em;
+    line-height: 2;
+}
+.little-header-text{
+    line-height: 1.714;
+}
+.card-text{
+    line-height: 1.875;
+}
